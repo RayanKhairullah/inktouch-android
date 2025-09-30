@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Inktouch" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary/app bar colors - Deep Blue Theme -->
+        <item name="colorPrimary">@color/blue_deep</item>
+        <item name="colorPrimaryVariant">@color/blue_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary/accent -->
+        <item name="colorSecondary">@color/blue_accent</item>
+        <item name="colorSecondaryVariant">@color/blue_primary</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Status bar matches primary variant -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Ensure toolbar/menu icons/text are white on pink -->
+        <item name="actionBarTheme">@style/ThemeOverlay.CreamsyApp.ActionBar</item>
+    </style>
+
+    <!-- ActionBar overlay to tint icons/text white -->
+    <style name="ThemeOverlay.CreamsyApp.ActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlHighlight">@color/white_60</item>
+    </style>
+</resources>
