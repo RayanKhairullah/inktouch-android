@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <!-- Hamburger Menu with Dropdown -->
+    <item
+        android:id="@+id/action_menu"
+        android:title="Menu"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_product_management"
+                android:title="📦 Manage Product"/>
+            <item
+                android:id="@+id/action_history"
+                android:title="📝 History Transaction"/>
+            <item
+                android:id="@+id/action_logout"
+                android:title="🚪 Logout"/>
+        </menu>
+    </item>
+</menu>

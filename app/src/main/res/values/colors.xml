@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Coffee/Cafe Theme Colors -->
+    <!-- Primary: Rich Espresso Brown -->
+    <color name="coffee_dark">#3E2723</color>
+    <color name="coffee_primary">#5D4037</color>
+    <color name="coffee_medium">#6D4C41</color>
+    <color name="coffee_light">#8D6E63</color>
+    
+    <!-- Accent: Warm Caramel/Latte -->
+    <color name="caramel_accent">#D4A574</color>
+    <color name="latte_cream">#F5E6D3</color>
+    <color name="cream_light">#FFF8E1</color>
+    
+    <!-- Background & Surface -->
+    <color name="cafe_bg">#FFF9F0</color>
+    <color name="cafe_surface">#FFFFFF</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#3E2723</color>
+    <color name="text_secondary">#6D4C41</color>
+    <color name="text_hint">#A1887F</color>
+    
+    <!-- Grays (keep for compatibility) -->
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_600">#757575</color>
+    <color name="gray_700">#616161</color>
+    
+    <!-- Legacy Blues (keep for backward compatibility) -->
+    <color name="blue_primary_dark">#0F4C75</color>
+    <color name="blue_primary">#1B6CA8</color>
+    <color name="blue_accent">#3282B8</color>
+    <color name="blue_deep">#0E639C</color>
+</resources>

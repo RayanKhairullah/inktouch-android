@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme - Coffee/Cafe Theme -->
+    <style name="Base.Theme.EasyCoff" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary Colors: Rich Espresso Brown -->
+        <item name="colorPrimary">@color/coffee_primary</item>
+        <item name="colorPrimaryVariant">@color/coffee_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <!-- Secondary/Accent Colors: Warm Caramel -->
+        <item name="colorSecondary">@color/caramel_accent</item>
+        <item name="colorSecondaryVariant">@color/coffee_medium</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- Background & Surface: Warm Cream -->
+        <item name="android:colorBackground">@color/cafe_bg</item>
+        <item name="colorSurface">@color/cafe_surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/coffee_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        
+        <!-- Button Style -->
+        <item name="materialButtonStyle">@style/Widget.EasyCoff.Button</item>
+    </style>
+
+    <style name="Theme.EasyCoff" parent="Base.Theme.EasyCoff" />
+    
+    <!-- Custom Button Style -->
+    <style name="Widget.EasyCoff.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/coffee_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+</resources>
