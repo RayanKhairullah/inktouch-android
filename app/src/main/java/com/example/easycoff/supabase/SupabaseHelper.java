@@ -590,8 +590,6 @@ public class SupabaseHelper {
         // Add required fields from schema
         transactionData.put("payment_method", "cash");
         transactionData.put("status", "completed");
-        transactionData.put("discount_amount", 0);
-        transactionData.put("tax_amount", 0);
 
         Log.d(TAG, "Creating transaction with data: " + transactionData.toString());
 
