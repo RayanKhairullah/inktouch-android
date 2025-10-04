@@ -1,9 +1,30 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Inktouchappandroid" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Theme.Inktouch" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary/app bar colors - Yellow Theme -->
+        <item name="colorPrimary">@color/yellow_deep</item>
+        <item name="colorPrimaryVariant">@color/yellow_primary_dark</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <!-- Secondary/accent -->
+        <item name="colorSecondary">@color/yellow_accent</item>
+        <item name="colorSecondaryVariant">@color/yellow_primary</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar matches primary variant -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Ensure toolbar/menu icons/text are legible on yellow -->
+        <item name="actionBarTheme">@style/ThemeOverlay.Inktouch.ActionBar</item>
+
+        <!-- Global font: local Poppins family -->
+        <item name="android:fontFamily">@font/poppins_family</item>
+        <item name="fontFamily">@font/poppins_family</item>
     </style>
 
-    <style name="Theme.Inktouchappandroid" parent="Base.Theme.Inktouchappandroid" />
+    <!-- ActionBar overlay to tint icons/text white -->
+    <style name="ThemeOverlay.Inktouch.ActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlHighlight">@color/gray_600</item>
+    </style>
 </resources>

@@ -30,7 +30,6 @@ android {
         targetCompatibility = JavaVersion.VERSION_11
     }
 }
-
 dependencies {
     // Tambahkan Retrofit untuk REST API
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
@@ -53,4 +52,7 @@ dependencies {
     // Glide for image loading
     implementation("com.github.bumptech.glide:glide:4.16.0")
     annotationProcessor("com.github.bumptech.glide:compiler:4.16.0")
+
+    // FastExcel: lightweight XLSX writer compatible with Android
+    implementation("org.dhatim:fastexcel:0.17.0")
 }

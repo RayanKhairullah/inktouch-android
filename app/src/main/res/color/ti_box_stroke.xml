@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Focused/Pressed/Hovered: Yellow border -->
+    <item android:state_focused="true" android:color="@color/yellow_deep" />
+    <item android:state_pressed="true" android:color="@color/yellow_deep" />
+    <item android:state_hovered="true" android:color="@color/yellow_deep" />
+
+    <!-- Default: Gray border -->
+    <item android:color="@color/gray_300" />
+</selector>
